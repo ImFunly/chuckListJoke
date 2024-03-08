@@ -8,9 +8,9 @@ body {
   align-items: center;
   height: 100vh;
 }
-
-h1 {
-  color: #333;
+div {
+  display: flex;
+  gap: 10px;
 }
 
 button {
@@ -27,5 +27,14 @@ button:hover {
   background-color: #0056b3;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
 
-
+li {
+  border: 1px blue solid;
+  background-color: rgb(199, 198, 198);
+  margin-top: 10px;
+}
